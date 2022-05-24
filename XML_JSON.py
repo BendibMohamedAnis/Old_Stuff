@@ -3,7 +3,7 @@ import sys
 import xml.etree.cElementTree 
 import argparse
 
-parser = argparse.ArgumentParser(description='================ [ Convertir XML > JSON ] ================')
+parser = argparse.ArgumentParser(description='================= [ Convertir XML > JSON ] =================')
 parser.add_argument('infile', nargs='?', type=argparse.FileType('rt'), default=sys.stdin)
 
 
